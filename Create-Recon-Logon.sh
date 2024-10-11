@@ -1,6 +1,9 @@
+
 #!/bin/bash
-# This Script will create user for the CyberArk
-# The accounts created are <hostname>-recon and <hostname>-logon
+# This script creates two user accounts (`<hostname>-recon` and `<hostname>-logon`) on a Linux server. 
+# The `<hostname>-recon` account is added to the wheel group (for sudo access).
+# Writen by Andrew dru0pa@gmail.com
+
 
 
 # Get the hostname of the server.
